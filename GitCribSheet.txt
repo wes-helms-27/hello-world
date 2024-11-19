@@ -1,23 +1,29 @@
-CONFIGURE TOOLING
-Configure user information for all local repositories
-$ git config --global user.name "[name]"
-Sets the name you want atached to your commit transactions
-$ git config --global user.email "[email address]"
-Sets the email you want atached to your commit transactions
-$ git config --global color.ui auto
-Enables helpful colorization of command line output
+Author: Wes Helms
+User name: helms27@up.edu
+Date: 11/19/24
+License: MIT Open Source Initiative
+Version: 1.5
 
 CREATE REPOSITORIES
 Start a new repository or obtain one from an existing URL
 $ git init [project-name]
 Creates a new local repository with the specified name
-$ git clone [url]
+$ git clone [URL]
 Downloads a project and its entire version history
 
+CONFIGURE TOOLING
+Configure user information for all local repositories
+$ git config --global user.name "[name]"
+Sets the name you want attached to your commit transactions
+$ git config --global user.email "[email address]"
+Sets the email you want attached to your commit transactions
+$ git config --global color.ui auto
+Enables helpful colorization of command line output
+
 MAKE CHANGES
-Review edits and craf a commit transaction
+Review edits and craft a commit transaction
 $ git status
-Lists all new or modified files to be commited
+Lists all new or modified files to be committed
 $ git add [file]
 Snapshots the file in preparation for versioning
 $ git reset [file]
@@ -62,18 +68,18 @@ build/
 temp-*
 
 A text file named .gitignore suppresses accidental versioning of
-files and paths matching the specified paterns
+files and paths matching the specified patterns
 
 SAVE FRAGMENTS
 Shelve and restore incomplete changes
 $ git stash
 Temporarily stores all modified tracked files
 $ git stash list
-Lists all stashed changesets
+Lists all stashed change sets
 $ git stash pop
 Restores the most recently stashed files
 $ git stash drop
-Discards the most recently stashed changeset
+Discards the most recently stashed change set
 
 
 REVIEW HISTORY
@@ -88,9 +94,9 @@ $ git show [commit]
 Outputs metadata and content changes of the specified commit
 
 REDO COMMITS
-Erase mistakes and craf replacement history
+Erase mistakes and craft replacement history
 $ git reset [commit]
-Undoes all commits afer [commit], preserving changes locally
+Undoes all commits after [commit], preserving changes locally
 $ git reset --hard [commit]
 Discards all history and changes back to the specified commit
 
@@ -105,7 +111,7 @@ Uploads all local branch commits to GitHub
 $ git pull
 Downloads bookmark history and incorporates changes
 
-GitHub TRRAINING
+GitHub TRAINING
 training.github.com
 
 GIT INSTALL
